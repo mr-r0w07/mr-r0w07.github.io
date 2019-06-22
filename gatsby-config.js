@@ -13,7 +13,7 @@ const configuration = {
   author: 'Vikas Rawat',
   githubUrl: 'https://in.linkedin.com/in/vikas-rawat-366640131',
   // replace this by the url where your website will be published
-  siteUrl: 'httpss://vikasrawat.co',
+  siteUrl: 'https://vikasrawat.co',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: 'Mr_R0w07',
