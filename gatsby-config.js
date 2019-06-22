@@ -11,7 +11,7 @@ const configuration = {
   // a longer bio showing on the landing page of the blog
   bio: `Information Security Enthusiast!.`,
   author: 'Vikas Rawat',
-  githubUrl: 'https://github.com/mr-r0w07/mr-r0w07.github.io/',
+  githubUrl: 'https://in.linkedin.com/in/vikas-rawat-366640131',
   // replace this by the url where your website will be published
   siteUrl: 'httpss://vikasrawat.co',
   social: {
