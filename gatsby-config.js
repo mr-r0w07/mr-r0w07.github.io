@@ -4,7 +4,7 @@ const configuration = {
   // the name of your website
   title: 'Vikas Rawat',
   // the description of the website (eg. what shows on Google)
-  description: "Vikas Rawat's blog",
+  description: "Information Security Blog",
   // a short bio shown at the bottom of your blog posts
   // It should complete the sentence: Written by Vikas Rawat ...
   shortBio: '',
@@ -13,7 +13,7 @@ const configuration = {
   author: 'Vikas Rawat',
   githubUrl: 'https://github.com/mr-r0w07/mr-r0w07.github.io/',
   // replace this by the url where your website will be published
-  siteUrl: 'http://localhost:8000',
+  siteUrl: 'httpss://vikasrawat.co',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: 'Mr_R0w07',
