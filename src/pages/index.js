@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
 import Section from '../components/section'
 import Pills from '../components/pills'
 import MainBio from '../components/main-bio'
