@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vikas Rawat | Security Engineer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Vikas Rawat, Security Engineer specializing in fintech, cloud security, and regulatory compliance.">
+  <style>
+    :root {
+      --bg-main: #181b22;
+      --bg-card: #23272f;
+      --text-main: #f5f7fa;
+      --text-secondary: #a3adc2;
+      --accent: #4fd1c5;
+      --link: #60a5fa;
+      --chip-bg: #252c38;
+      --chip-text: #60a5fa;
+      --shadow: 0 8px 24px #000a;
+      --radius: 18px;
+      --font: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    }
+    html, body {
+      background: var(--bg-main);
+      color: var(--text-main);
+      font-family: var(--font);
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      max-width: 420px;
+      padding: 2.4rem 2rem 2.1rem 2rem;
+      margin: 2rem;
+      width: 100%;
+      box-sizing: border-box;
+      animation: fadeIn 1s;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(25px);}
+      to   { opacity: 1; transform: translateY(0);}
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 1.3rem;
+    }
+    .name {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      margin-bottom: 0.35rem;
+    }
+    .title {
+      font-size: 1.13rem;
+      background: var(--chip-bg);
+      color: var(--chip-text);
+      padding: 2.5px 12px;
+      border-radius: 12px;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+    }
+    .desc {
+      color: var(--text-secondary);
+      font-size: 1.02rem;
+      margin-bottom: 0.6rem;
+    }
+    h2 {
+      margin: 2.1rem 0 0.9rem 0;
+      color: var(--accent);
+      font-size: 1.08rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    ul, .contact-links {
+      padding: 0;
+      margin: 0 0 1.1rem 0;
+      list-style: none;
+    }
+    .contact-links a {
+      color: var(--link);
+      text-decoration: none;
+      font-size: 1.02rem;
+      margin-right: 1.1rem;
+      transition: color .15s;
+      vertical-align: middle;
+    }
+    .contact-links a:hover { color: var(--accent);}
+    .contact-icon {
+      margin-right: 7px;
+      vertical-align: middle;
+      opacity: 0.8;
+    }
+    @media (max-width: 520px) {
+      .card { padding: 1.3rem 4vw; margin: 6vw 0;}
+      .name { font-size: 1.22rem;}
+      .header { margin-bottom: 0.9rem;}
+    }
+  </style>
+  <!-- Icons for email/X/GitHub -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <main class="card">
+    <section class="header">
+      <span class="name">Vikas Rawat</span>
+      <span class="title">Security Engineer 2 &mdash; Syfe</span>
+      <span class="desc">
+        Cybersecurity engineer specializing in fintech, cloud security, and regulatory compliance (MAS TRM). I focus on safeguarding financial applications, bug bounty operations, and driving secure growth at Syfe.
+      </span>
+    </section>
+
+    <h2>About</h2>
+    <p class="desc" style="margin-bottom:1.3rem;">
+      I lead security operations across application, cloud, and SOC domains, emphasizing threat modeling, vulnerability assessments, and compliance with MAS, PCI DSS, and GDPR. Dedicated to proactive defense and continuous improvement in the fintech landscape.
+    </p>
+
+    <h2>Experience</h2>
+    <ul>
+      <li style="margin-bottom:8px;">
+        <b>Security Engineer 2, Syfe</b> (2023–Present)
+        <div class="desc" style="margin:0;">
+          <ul style="margin-top:5px;">
+            <li>Responsible for bug bounty management, threat modeling, VAPT, SOC and regulatory compliance</li>
+            <li>Security automation and incident response in high-trust fintech environment</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <b>Bug Bounty Researcher</b> (HackerOne, Independent Programs)
+        <div class="desc" style="margin:0;">
+          <ul style="margin-top:5px;">
+            <li>Discovered and reported critical vulnerabilities for global fintech and SaaS</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <h2>Contact</h2>
+    <div class="contact-links">
+      <a href="mailto:mr_r0w07@wearehackerone.com" title="Email"><i class="fa-solid fa-envelope contact-icon"></i>Email</a>
+      <a href="https://x.com/mr_r0w07" target="_blank" rel="noopener" title="X (Twitter)"><i class="fa-brands fa-x-twitter contact-icon"></i>X/Twitter</a>
+      <a href="#" title="https://github.com/mr-r0w07"><i class="fa-brands fa-github contact-icon"></i>GitHub</a>
+      <a href="#" title="https://in.linkedin.com/mrr0w07"><i class="fa-brands fa-linkedin contact-icon"></i>LinkedIn</a>
+    </div>
+  </main>
+</body>
+</html>
